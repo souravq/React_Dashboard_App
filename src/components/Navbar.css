@@ -1,5 +1,5 @@
 .navbar{
-    background-color: #66A4CC;
+    /*background-color: #66A4CC;*/
     height:80px;
     display:flex;
     justify-content:start;
@@ -11,9 +11,11 @@
     background:none;
 }
 .nav-menu{
-    background-color: #66A4CC;
-    width:260px;
-    height:100vh;
+    background-color: #162349;
+    width:20%;
+    height:98% !important;
+    border-radius: 2rem;
+    margin: 2px;
     display:flex;
     justify-content:center;
     position:fixed;
@@ -62,4 +64,23 @@
 }
 span{
     padding:15px;
+}
+.ContactContainer{
+  margin-top: 85px !important;
+  width: 80%;
+  background-color: #091322;
+  color: #c4c4c4;
+  height: 15%;
+  margin: auto auto;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+
+  
+}
+.ContactContainer .contactdata{
+    color: white;
+    text-decoration: none;
+    padding-left: 12px;
 }

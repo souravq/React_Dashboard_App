@@ -23,7 +23,7 @@ export const Sidebar=[
         cName:'nav-text'
     },
     {
-        title:'Known References',
+        title:'References',
         path:'/references',
         icon:<IoIcons.IoMdPeople />,
         cName:'nav-text'
@@ -34,10 +34,10 @@ export const Sidebar=[
         icon:<FaIcons.FaEnvelopeOpenText />,
         cName:'nav-text'
     },
-    {
+    /*{
         title:'Contact',
         path:'/contact',
         icon:<IoIcons.IoMdHelpCircle />,
         cName:'nav-text'
-    }
+    }*/
 ]

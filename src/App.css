@@ -5,9 +5,20 @@
   font-family:'Lato',sans-serif;
 }
 
+.containerr{
+  margin: 5px;
+  display: flex;
+  height: 97vh;
+  background: linear-gradient(to bottom right, white 0%, #e6e4ff 70%);
+  border-radius: 2rem;
+}
+
 .home,.terms,.discussion,.contact{
   margin-left: 270px;
   margin-top:40px;
+}
+.home_row{
+  display: inline-flex;
 }
 .overview{
   margin-left: 270px;

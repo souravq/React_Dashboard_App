@@ -1,5 +1,6 @@
 import React from 'react'
 import PatentData from '../Assets_Data/patent_references.json';
+import Nav from "./Nav";
 
 function KnownReferences() {
   return (

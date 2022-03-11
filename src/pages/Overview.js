@@ -1,11 +1,11 @@
 import React from 'react';
 import Patent from '../Assets_Data/patent.json';
-
+import Nav from "./Nav";
 
 function Overview() {
   return(
     <div className="overview">
-        
+        <Nav />
         {Patent.map((val, key) => {
           return (
         <div className="row patent_info">

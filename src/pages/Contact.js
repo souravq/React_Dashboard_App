@@ -1,15 +1,14 @@
 import React from 'react'
+import Nav from "./Nav";
+import ContactInfo from "./ContactInfo";
 
 function Contact() {
   return (
     <div className="contact">
+    <Nav />
         <h2>Contact</h2><br/>
-        <p>Have a question or feedback? Looking to connect directly with our staff? Feel free to contact us!<br/>
-
-          Our Contact Information:<br/>
-          Corporate Headquarters:<br/>
-          100 Wilshire Blvd. Suite 700<br/>
-          Santa Monica, CA 90401 USA</p>
+        <ContactInfo />
+        
 
     </div>
   )

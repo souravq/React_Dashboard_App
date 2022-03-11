@@ -3,6 +3,8 @@ import React from 'react';
 import {  BrowserRouter as Router,  Routes,  Route} from "react-router-dom";
 import './App.css';
 import Navbar from './components/Navbar';
+import styled from "styled-components";
+
 import Home from './pages/Home';
 import Overview from './pages/Overview';
 import Discussion from './pages/Discussion';
@@ -12,20 +14,22 @@ import Contact from './pages/Contact';
 
 function App() {
   return (
-    <>
-    <Router>
-      <Navbar/>
-      <Routes>
-        <Route path='/' exact element={<Home/>}/>
-        <Route path='/overview' element={<Overview/>}/>
-        <Route path='/discussions' element={<Discussion/>}/>
-        <Route path='/references' element={<KnownReferences/>}/>
-        <Route path='/terms' element={<LegalTerms/>}/>
-        <Route path='/contact' element={<Contact/>}/>
-      </Routes>
-    </Router>
+    
+    <div class="containerr">
+        <Router>
+          <Navbar/>
+          <Routes>
+            <Route path='/' exact element={<Home/>}/>
+            <Route path='/overview' element={<Overview/>}/>
+            <Route path='/discussions' element={<Discussion/>}/>
+            <Route path='/references' element={<KnownReferences/>}/>
+            <Route path='/terms' element={<LegalTerms/>}/>
+            <Route path='/contact' element={<Contact/>}/>
+          </Routes>
+        </Router>
      
-    </>
+    </div>
+    
   );
 }
 
